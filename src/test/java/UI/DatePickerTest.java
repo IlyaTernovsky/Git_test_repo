@@ -28,3 +28,4 @@ public class DatePickerTest extends BaseTest {
         Assert.assertTrue(datePickerPage.isResultDateDisplay());
     }
 }
+/*20.4.25*/
