@@ -23,9 +23,9 @@ public class DatePickerTest extends BaseTest {
 
     @Test
     public void step_02(){
-        datePickerPage.clickDatePicker();
+        datePickerPage.clickDatePicker(); //нажать на календарь
         datePickerPage.setDate();
         Assert.assertTrue(datePickerPage.isResultDateDisplay());
     }
 }
-/*20.4.25*/
+/*20.4.2025*/
