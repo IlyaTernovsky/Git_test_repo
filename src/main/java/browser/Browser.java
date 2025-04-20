@@ -22,7 +22,7 @@ public class Browser {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
-//                chromeOptions.addArguments("--headless");
+                chromeOptions.addArguments("--headless");
                 chromeOptions.setCapability(CapabilityType.PAGE_LOAD_STRATEGY, "eager");
                 driver = new ChromeDriver(chromeOptions);
                 break;
